@@ -1,0 +1,53 @@
+{
+	"name": "smart-home",
+	"topic": "smarthome/house1/energy/appliances",
+	"payload": [
+		{
+			"name": "sub_metering_1",
+			"type": "float",
+			"min": 10,
+			"max": 100,
+			"precision": 2
+		},
+		{
+			"name": "sub_metering_2",
+			"type": "float",
+			"min": 10,
+			"max": 100,
+			"precision": 2
+		},
+		{
+			"name": "sub_metering_3",
+			"type": "float",
+			"min": 10,
+			"max": 25,
+			"precision": 2
+		},
+		{
+			"name": "global_active_power",
+			"type": "float",
+			"min": 1,
+			"max": 8,
+			"precision": 2
+		},
+		{
+			"name": "global_reactive_power",
+			"type": "float",
+			"min": 5,
+			"max": 35,
+			"precision": 2
+		},
+		{
+			"name": "voltage",
+			"type": "float",
+			"min": 10,
+			"max": 250,
+			"precision": 2
+		},
+		{
+			"name": "timestamp",
+			"type": "timestamp",
+			"tsformat": "default"
+		}
+	]
+}
